@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bebeecd1-10d5-450c-9c9b-a81b6ab0b8bc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/org/training/spark/core/PopularMovieAnalyzer.scala" afterPath="$PROJECT_DIR$/src/main/scala/org/training/spark/core/PopularMovieAnalyzer.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/org/training/spark/core/TopKMovieAnalyzer.scala" afterPath="$PROJECT_DIR$/src/main/scala/org/training/spark/core/TopKMovieAnalyzer.scala" />
     </list>
     <ignored path="sparktraining.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PopularMovieAnalyzer.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PopularMovieAnalyzer.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/org/training/spark/core/PopularMovieAnalyzer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="88" column="46" lean-forward="true" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
+            <state relative-caret-position="142">
+              <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -116,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopKMovieAnalyzer.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TopKMovieAnalyzer.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/org/training/spark/core/TopKMovieAnalyzer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-334">
-              <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            <state relative-caret-position="253">
+              <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -153,11 +152,11 @@
         <option value="$PROJECT_DIR$/src/main/scala/org/training/spark/sql/MovieUserAnalyzerWithDataFrame.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/org/training/spark/sql/SparkSQLSimpleExample.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/org/training/spark/streaming/UserClickCountAnalytics.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/org/training/spark/core/TopKMovieAnalyzer.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/org/training/spark/core/Test.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/org/training/spark/core/MovieUserAnalyzer.scala" />
         <option value="$PROJECT_DIR$/data/ml-1m/movies.dat" />
         <option value="$PROJECT_DIR$/src/main/scala/org/training/spark/core/PopularMovieAnalyzer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/org/training/spark/core/TopKMovieAnalyzer.scala" />
       </list>
     </option>
   </component>
@@ -352,7 +351,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PopularMovieAnalyzer">
+  <component name="RunManager" selected="Application.TopKMovieAnalyzer">
     <configuration name="MovieUserAnalyzer" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -399,6 +398,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="org.training.spark.sql.SparkSQLSimpleExample" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sparktraining" />
+      <envs />
+    </configuration>
+    <configuration name="TopKMovieAnalyzer" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.training.spark.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.training.spark.core.TopKMovieAnalyzer" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -604,16 +622,18 @@
       <envs />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.SparkSQLSimpleExample" />
       <item index="1" class="java.lang.String" itemvalue="Application.MovieUserAnalyzer" />
       <item index="2" class="java.lang.String" itemvalue="Application.PopularMovieAnalyzer" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TopKMovieAnalyzer" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.PopularMovieAnalyzer" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MovieUserAnalyzer" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SparkSQLSimpleExample" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.TopKMovieAnalyzer" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PopularMovieAnalyzer" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MovieUserAnalyzer" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SparkSQLSimpleExample" />
       </list>
     </recent_temporary>
   </component>
@@ -652,16 +672,15 @@
       <workItem from="1502282850744" duration="10356000" />
       <workItem from="1502512089822" duration="5823000" />
       <workItem from="1502588395705" duration="841000" />
-      <workItem from="1502594752815" duration="6497000" />
+      <workItem from="1502594752815" duration="10624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25465000" />
+    <option name="totallyTimeSpent" value="29592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -669,7 +688,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16364606" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21630435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21630435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1059,17 +1078,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/ml-1m/ratings.dat">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="23">
-          <caret line="1934" column="8" lean-forward="false" selection-start-line="1934" selection-start-column="4" selection-end-line="1934" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/ml-1m/movies.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/training/spark/core/PopularMovieAnalyzer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1082,18 +1102,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/org/training/spark/core/TopKMovieAnalyzer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-334">
-          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/data/ml-1m/ratings.dat">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="23">
+          <caret line="1934" column="8" lean-forward="false" selection-start-line="1934" selection-start-column="4" selection-end-line="1934" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/org/training/spark/core/PopularMovieAnalyzer.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/training/spark/core/TopKMovieAnalyzer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="88" column="46" lean-forward="true" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
+        <state relative-caret-position="253">
+          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
           <folding />
         </state>
       </provider>

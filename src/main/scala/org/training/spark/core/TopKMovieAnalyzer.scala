@@ -3,7 +3,7 @@ package org.training.spark.core
 import org.apache.spark._
 
 /**
- * 得分最高的10部电影；看过电影最多的前10个人；女性看多最多的10部电影；男性看过最多的10部电影
+ * 得分最高的10部电影；看过电影最多的前10个人；女性看的最多的10部电影；男性看过最多的10部电影
  */
 object TopKMovieAnalyzer {
 
